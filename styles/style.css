@@ -1,0 +1,46 @@
+/* ---------------
+    Font style 
+------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* ---------------
+Common style 
+------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.influencer-journey{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-column-gap: 133px; */
+}
+.influencer{
+    /* width: 582px;
+    height: 270px; */
+    margin-left: 120px;
+}
+.influencer h1{
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.camera-details {
+    font-size: 16px;
+    margin-top: 36px;
+}
+.influencer-camera {
+    background-image: url(images/Circle_design.svg);
+}
+.influencer-camera img {
+    width: 440px;
+    height: 414px;
+}
+
+.company-logo{
+    display: flex;
+
+}
+.logos{
+    width: 55px;
+    height: 31px;
+    padding-left: 30px;
+}
