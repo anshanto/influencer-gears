@@ -37,10 +37,45 @@ body{
 
 .company-logo{
     display: flex;
-
+    border: 3px solid;
+    border-color: linear-gradient(#C0CCDA1A #C0CCDA99 #C0CCDA1A);
+    width: 1110px;
+    height: 80px;
+}
+.ali-logo{
+    /* padding-right: 60px; */
 }
 .logos{
+    margin: 60px;
+}
+.ali-logo img{
     width: 55px;
     height: 31px;
-    padding-left: 30px;
+}
+.ama-logo img{
+    width: 84px;
+    height: 25.28px;
+}
+.dara-logo img{
+    width: 84px;
+    height: 26px;
+}
+.eba-logo img{
+    width: 99.12px;
+    height: 39.61px;
+}
+.rak-logo img{
+    width: 97.09px;
+    height: 28px;
+}
+.tar-logo img{
+    width: 111px;
+    height: 26px;
+}
+.wal-logo img{
+    width: 91px;
+    height: 38px;
+}
+.logo-icon {
+    /* margin-left: 60px; */
 }
