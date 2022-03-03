@@ -39,14 +39,21 @@ body{
     display: flex;
     border: 3px solid;
     border-color: linear-gradient(#C0CCDA1A #C0CCDA99 #C0CCDA1A);
-    width: 1110px;
+    width: 1015px;
     height: 80px;
+}
+.logo{
+    margin-left: 165px;
+    margin-top: 130px;
 }
 .ali-logo{
     /* padding-right: 60px; */
 }
 .logos{
-    margin: 60px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    /* margin-left: 60px; */
+    margin-right: 60px;
 }
 .ali-logo img{
     width: 55px;
@@ -78,4 +85,64 @@ body{
 }
 .logo-icon {
     /* margin-left: 60px; */
+}
+
+/* -------------------------------
+Popular Collection 
+----------------------------------*/
+
+.popular-collection{
+    margin: 100px;
+}
+.popular{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    background-color: rgba(224, 224, 224, 0.993) ;
+}
+.popular-title{
+    width: 329px;
+    height: 550px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+h2{
+    font-size: 28px;
+    color: #3A3A3A;
+    text-align: center;
+}
+.popular-info p{
+    font-size: 24px;
+    color: #000000DE;
+}
+.fa-star{
+    width: 11.07px;
+    height: 10.32px;
+    color: orange;
+}
+.fa-star-half{
+    width: 11.07px;
+    height: 10.32px;
+    color: orange;
+}
+.title{
+    font-size: 28px;
+}
+.rating p{
+    font-size: 14px;
+    color: #787885;
+}
+.popular-photo img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+.popular-photo{
+    padding-left: 14px;
+    padding-top: 17px;
+}
+.popular-details{
+    padding-left: 14px;
 }
