@@ -4,19 +4,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* ---------------
-Common style 
+     Common style 
 ------------------*/
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* -------------------
+       Star Journey
+---------------------- */
 .influencer-journey{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-column-gap: 133px; */
 }
 .influencer{
-    /* width: 582px;
-    height: 270px; */
     margin-left: 120px;
 }
 .influencer h1{
@@ -34,7 +34,21 @@ body{
     width: 440px;
     height: 414px;
 }
+.prebook-button{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #E02C6D;
+    width: 196px;
+    height: 44px;
+    padding: 10px 24px;
+    border-radius: 41px;
+    border-color: #E02C6D;
+}
 
+/* ---------------------------
+        Company Logos Style  
+------------------------------*/
 .company-logo{
     display: flex;
     border: 3px solid;
@@ -46,13 +60,9 @@ body{
     margin-left: 165px;
     margin-top: 130px;
 }
-.ali-logo{
-    /* padding-right: 60px; */
-}
 .logos{
     margin-top: 35px;
     margin-bottom: 35px;
-    /* margin-left: 60px; */
     margin-right: 60px;
 }
 .ali-logo img{
@@ -83,16 +93,15 @@ body{
     width: 91px;
     height: 38px;
 }
-.logo-icon {
-    /* margin-left: 60px; */
-}
 
 /* -------------------------------
-Popular Collection 
+       Popular Collection 
 ----------------------------------*/
 
 .popular-collection{
-    margin: 100px;
+    margin: 110px;
+    width: 1047px;
+    height: 1762px;
 }
 .popular{
     display: grid;
@@ -145,4 +154,50 @@ h2{
 }
 .popular-details{
     padding-left: 14px;
+}
+.see-button{
+    color: #E02C6D;
+    margin-left: 90%;
+    width: 99px;
+    height: 24px;
+}
+
+/*!---------------------
+     Featured Product 
+----------------------> */
+.featured{
+    margin-top: 100px;
+}
+.feature{
+    display: flex;
+    padding-left: 100px;
+}
+.feature-photo{
+    border-radius: 7px;
+}
+.feature-photo img{
+    width: 404px;
+    height: 270px;
+}
+.feature-details{
+    padding-left: 90px;
+    width: 610px;
+    height: 224px;
+}
+.feature-title{
+    font-size: 35px;
+}
+.feature-details p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.join-button{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #E02C6D;
+    width: 155px;
+    height: 44px;
+    padding: 10px 24px;
+    border-color: #E02C6D;
 }
