@@ -14,30 +14,35 @@ body{
      header style 
 --------------------*/
 nav>ul{
-    display: flex;
-    text-align: end;
-    justify-items: end;
+    padding: 0%;
+    margin-top: 20px;
+    text-align: right;
+    width: 100%;
+    height: 50px;
 }
 ul>li{
-    padding-left: 34px;
+    display: inline-block;
+    padding-right: 34px;
     list-style: none;
-    text-align:right;
-    justify-items: right;
 }
 nav>ul>li>a{
     text-decoration: none;
     color: #3A3A3A;
     font-size: 16px;
+    width: 100px;
+    text-align: center;
 }
-.fa-solid{
-    padding-left: 15px;
+.fa-magnifying-glass{
+    padding-right: 34px;
 }
+
 /* -------------------
        Star Journey
 ---------------------- */
 .influencer-journey{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
 }
 .influencer{
     margin-left: 120px;
@@ -51,11 +56,13 @@ nav>ul>li>a{
     margin-top: 36px;
 }
 .influencer-camera {
-    background-image: url(images/Circle_design.svg);
+    background: url(images/Circle_design.svg) no-repeat;
+    padding-right: 30px;
 }
 .influencer-camera img {
     width: 440px;
     height: 414px;
+    /* background: url(images/Circle_design.svg) no-repeat; */
 }
 .prebook-button{
     text-decoration: none;
@@ -67,6 +74,7 @@ nav>ul>li>a{
     padding: 10px 24px;
     border-radius: 41px;
     border-color: #E02C6D;
+    font-weight: bold;
 }
 
 /* ---------------------------
@@ -74,47 +82,21 @@ nav>ul>li>a{
 ------------------------------*/
 .company-logo{
     display: flex;
-    border: 3px solid;
-    border-color: linear-gradient(#C0CCDA1A #C0CCDA99 #C0CCDA1A);
-    width: 1015px;
-    height: 80px;
+    width: 786.47px;
+    height: 19.61px;
+    margin: 15px 35px;
+}
+.all-logo{
+    Width: 1000px;
+    height: 100px;
+    border: 1px solid rgba(113, 114, 116, 0.822);
 }
 .logo{
-    margin-left: 165px;
+    margin-left: 140px;
     margin-top: 130px;
 }
 .logos{
-    margin-top: 35px;
-    margin-bottom: 35px;
-    margin-right: 60px;
-}
-.ali-logo img{
-    width: 55px;
-    height: 31px;
-}
-.ama-logo img{
-    width: 84px;
-    height: 25.28px;
-}
-.dara-logo img{
-    width: 84px;
-    height: 26px;
-}
-.eba-logo img{
-    width: 99.12px;
-    height: 39.61px;
-}
-.rak-logo img{
-    width: 97.09px;
-    height: 28px;
-}
-.tar-logo img{
-    width: 111px;
-    height: 26px;
-}
-.wal-logo img{
-    width: 91px;
-    height: 38px;
+    padding: 20px 22px;
 }
 
 /* -------------------------------
@@ -180,16 +162,21 @@ h2{
 }
 .see-button{
     color: #E02C6D;
+    padding-top: 40px;
     margin-left: 90%;
-    width: 99px;
-    height: 24px;
+    width: 105px;
+    height: 28px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 /*!---------------------
      Featured Product 
 ----------------------> */
 .featured{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .feature{
     display: flex;
@@ -223,6 +210,7 @@ h2{
     height: 44px;
     padding: 10px 24px;
     border-color: #E02C6D;
+    font-weight: bold;
 }
 
 /*------------------
