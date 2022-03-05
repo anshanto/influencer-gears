@@ -218,7 +218,7 @@ h2{
 --------------------*/
 
 .icon-footer{
-    background-color: rgba(1, 1, 59, 0.596);
+    background: #0A0826;
     width: 1250px;
     height: 250px;
     margin-top: 100px;
@@ -236,6 +236,7 @@ h4{
     font-size: 14px;
     font-weight: bold;
     padding-top: 1px;
+    color: #D9DBE1;
 }
 .social-icon{
     display: flex;
