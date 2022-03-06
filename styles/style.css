@@ -248,3 +248,212 @@ h4{
     padding: 0 16px;
     color:#FFFFFF;
 }
+
+/* ------- Phones Media Qureya--------*/
+@media (min-width: 200px) {
+    /* -----------------
+     header style 
+--------------------*/
+nav>ul{
+    padding: 0%;
+    margin-top: 20px;
+    margin-right: 6px;
+    text-align: left;
+    width: 100%;
+    height: 50px;
+}
+ul>li{
+    display: block;
+    padding-bottom: 10px;
+    list-style: none;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    width: 100px;
+}
+li>a:hover{
+    background-color: #787885;
+}
+
+/* -------------------
+       Star Journey
+---------------------- */
+.influencer-journey{
+    display: block;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 120px;
+}
+.influencer{
+    margin-left: 50px;
+}
+.influencer h1{
+    font-size: 28px;
+    color: #3A3A3A;
+}
+.camera-details {
+    font-size: 12px;
+    margin-top: 36px;
+}
+.influencer-camera {
+    background: url(images/Circle_design.svg) no-repeat;
+    padding-left: 150px;
+}
+.influencer-camera img {
+    width: 250px;
+    height: 230px;
+    /* background: url(images/Circle_design.svg) no-repeat; */
+}
+.prebook-button{
+    text-decoration: none;
+    font-size: 8px;
+    color: #FFFFFF;
+    background: #E02C6D;
+    width: 120px;
+    height: 28px;
+    padding: 10px 24px;
+    border-radius: 41px;
+    border-color: #E02C6D;
+    font-weight: bold;
+}
+
+/* ------------------------------
+        Company Logos Style   
+---------------------------------*/
+.company-logo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    width: 100.47px;
+    height: 119.61px;
+    margin-left: 15px;
+}
+.all-logo{
+    Width: 380px;
+    height: 160px;
+    border: 1px solid rgba(113, 114, 116, 0.822);
+}
+.logo{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.logos{
+    padding: 0px;
+}
+
+/* -------------------------------
+       Popular Collection 
+----------------------------------*/
+
+.popular-collection{
+    margin: 110px;
+    width: 1047px;
+    height: 1762px;
+}
+.popular{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    background-color: rgba(224, 224, 224, 0.993) ;
+}
+.popular-title{
+    width: 329px;
+    height: 550px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+h2{
+    font-size: 28px;
+    color: #3A3A3A;
+    text-align: center;
+}
+.popular-info p{
+    font-size: 24px;
+    color: #000000DE;
+}
+.fa-star{
+    width: 11.07px;
+    height: 10.32px;
+    color: orange;
+}
+.fa-star-half{
+    width: 11.07px;
+    height: 10.32px;
+    color: orange;
+}
+.title{
+    font-size: 28px;
+}
+.rating p{
+    font-size: 14px;
+    color: #787885;
+}
+.popular-photo img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+.popular-photo{
+    padding-left: 14px;
+    padding-top: 17px;
+}
+.popular-details{
+    padding-left: 14px;
+}
+.see-button{
+    color: #E02C6D;
+    padding-top: 40px;
+    margin-left: 90%;
+    width: 105px;
+    height: 28px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*!---------------------
+     Featured Product 
+----------------------> */
+.featured{
+    margin-top: 150px;
+}
+.feature{
+    display: flex;
+    padding-left: 100px;
+}
+.feature-photo{
+    border-radius: 7px;
+}
+.feature-photo img{
+    width: 404px;
+    height: 270px;
+}
+.feature-details{
+    padding-left: 90px;
+    width: 610px;
+    height: 224px;
+}
+.feature-title{
+    font-size: 35px;
+}
+.feature-details p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.join-button{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #E02C6D;
+    width: 155px;
+    height: 44px;
+    padding: 10px 24px;
+    border-color: #E02C6D;
+    font-weight: bold;
+}
+}
