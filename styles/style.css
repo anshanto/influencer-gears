@@ -312,7 +312,7 @@ li>a:hover{
     background: #E02C6D;
     width: 120px;
     height: 28px;
-    padding: 10px 24px;
+    padding: 8px 14px;
     border-radius: 41px;
     border-color: #E02C6D;
     font-weight: bold;
@@ -348,7 +348,7 @@ li>a:hover{
 ----------------------------------*/
 
 .popular-collection{
-    margin: 110px;
+    margin-right: 0px;
     width: 147px;
     height: 562px;
 }
@@ -356,7 +356,7 @@ li>a:hover{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     /* grid-column-gap: 30px; */
-    grid-row-gap: 10px;
+    grid-row-gap: 15px;
     background: none;
 }
 .popular-title{
@@ -425,37 +425,71 @@ h2{
     margin-top: 3400px;
 }
 .feature{
-    display: flex;
-    padding-left: 100px;
+    display: block;
+    padding-left: 60px;
 }
 .feature-photo{
     border-radius: 7px;
 }
 .feature-photo img{
-    width: 404px;
-    height: 270px;
+    width: 304px;
+    height: 170px;
 }
 .feature-details{
-    padding-left: 90px;
-    width: 610px;
+    padding-left: 0px;
+    width: 410px;
     height: 224px;
 }
 .feature-title{
-    font-size: 35px;
+    font-size: 23px;
 }
 .feature-details p{
-    font-size: 16px;
+    font-size: 12px;
     color: #6C6C6C;
 }
 .join-button{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 12px;
     color: #FFFFFF;
     background: #E02C6D;
-    width: 155px;
-    height: 44px;
-    padding: 10px 24px;
+    width: 130px;
+    height: 30px;
+    padding: 5px 14px;
     border-color: #E02C6D;
     font-weight: bold;
+}
+/*------------------ */
+       /* Footer style  */
+/* --------------------*/
+
+.icon-footer{
+    background: #0A0826;
+    width: 470px;
+    height: 250px;
+    margin-top: 10px;
+}
+.footer{
+    padding-top: 10px;
+}
+h4{
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.footer p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 1px;
+    color: #D9DBE1;
+}
+.social-icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.fa-brands{
+    padding: 0 16px;
+    color:#FFFFFF;
 }
 }
