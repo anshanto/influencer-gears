@@ -249,8 +249,8 @@ h4{
     color:#FFFFFF;
 }
 
-/* ------- Phones Media Qureya--------*/
-@media (min-width: 200px) and (max-width: 800px){
+/* ------- Phones Media Qureies--------*/
+@media (min-width: 320px) and (max-width: 576px){
     /* -----------------
      header style 
 --------------------*/
@@ -294,16 +294,21 @@ li>a:hover{
 }
 .camera-details {
     font-size: 12px;
-    margin-top: 36px;
+    margin-top: 200px;
 }
 .influencer-camera {
     background: url(images/Circle_design.svg) no-repeat;
-    padding-left: 150px;
+    padding-left: 50px;
 }
 .influencer-camera img {
-    width: 250px;
-    height: 230px;
+    width: 220px;
+    height: 200px;
     /* background: url(images/Circle_design.svg) no-repeat; */
+}
+#camera{
+    position:absolute;
+    top: 270px;
+    z-index: 2;
 }
 .prebook-button{
     text-decoration: none;
